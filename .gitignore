@@ -1,0 +1,48 @@
+# Visual Studio 文件夾
+.vs/
+
+# 用於編譯的 bin 和 obj 目錄
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider/JetBrains
+.idea/
+*.sln.iml
+
+# NuGet Packages
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+# NuGet v3's project.json files produces this file, this should be ignored
+*.nuget.props
+*.nuget.targets
+
+# 內部的 Publish 資料夾
+Publish/
+
+# ASP.NET Core 相關的特定檔案
+appsettings.Development.json
+
+# .NET CLI
+*.pdb
+*.lock.json
+*.runtimeconfig.dev.json
+
+# Logs
+logs/
+log/
+*.log
+
+# wwwroot
+wwwroot/UnitTest
+
+# 其他不必要的檔案
+.DS_Store
+Thumbs.db
